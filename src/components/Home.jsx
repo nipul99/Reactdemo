@@ -20,7 +20,7 @@ const Home = () => {
    
     return (
       <div className="counter">
-        <h1>React Counter</h1>
+        <h1>React Increment</h1>
         <span className="counter__output">{counter}</span>
         <div className="btn__container">
           <button className="control__btn" onClick={increase}>+</button>
